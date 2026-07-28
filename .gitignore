@@ -1,0 +1,32 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Secrets — НИКОГДА не коммитить
+.mcp.json
+config/tokens.md
+*.env
+.env*
+
+# Personal data — твои реальные брифы и аккаунты не должны попадать в git
+# Если делаешь fork и хочешь сохранять данные у себя — раскомментируй:
+# config/ad_accounts.md
+# config/briefs/*.md
+# !config/briefs/_template.md
+
+# Logs and runtime data
+history/**
+!history/.gitkeep
+reports/**
+!reports/.gitkeep
+
+# Generated
+*.log
+*.tmp
+node_modules/

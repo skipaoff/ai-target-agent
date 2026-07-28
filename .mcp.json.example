@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "meta-ads": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "/ABSOLUTE/PATH/TO/meta-ads-mcp",
+        "meta-ads-mcp"
+      ],
+      "env": {
+        "META_APP_ID": "YOUR_META_APP_ID",
+        "META_APP_SECRET": "YOUR_META_APP_SECRET",
+        "META_ACCESS_TOKEN": "YOUR_SYSTEM_USER_TOKEN"
+      }
+    }
+  }
+}
